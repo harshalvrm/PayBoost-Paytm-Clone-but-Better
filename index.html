@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -65,9 +66,9 @@
 
         <!-- *Stripe Section* -->
         
-        <div class="Stripe h-14 bg-[#F0F1F2] flex justify-center items-center shadow-xl">
+        <div class="Stripe h-12 bg-[#F0F1F2] flex justify-center items-center shadow-inner">
             <div class="internalSection text-[#000000] ">
-                <span class="font-semibold">No Wallte KYC Required. 😊 </span>
+                <span class="font-semibold">No Wallet KYC Required. 😊 </span>
                 <span class="font-normal">to pay using UPI on Paytm.</span>
                 <span class="font-semibold">Learn more.</span>
             </div>
@@ -76,16 +77,22 @@
         
         
         <!-- *Hero Section* -->
-        <div class="HeroSection flex flex-col lg:flex-row items-center justify-around ml-12 mt-20">
-            <div class="heroLeft flex lg:flex-col items-start justify-between gap-12">
-                <div class="heroLogo"><img class="w-20" src="./Assets/Images/Paytm_se_upi.png" alt=""></div>
-                <div class="heroHead font-paytm lg:w-2/3 lg:text-5xl font-bold">India's Most-loved Payments App</div>
-                <div class="heroDesc w-3/5 font-paytm font-normal lg:text-xl">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</div>
-                <div class="heroButton"></div>
-            </div>
+        <div class="flex flex-col">
+            <div class="HeroSection flex flex-col items-center md:flex-row md:justify-between ml-12 mt-20">
+                <div class="heroLeft flex flex-col md:items-start items-center lg:items-start justify-between gap-12
+                    <div class="heroLogo"><img class="w-10 md:w-12 lg:w-16 " src="./Assets/Images/Paytm_se_upi.png" alt=""></div>
+                    <div class="heroHead font-paytm lg:w-2/3 lg:text-5xl md:text-3xl text-3xl font-bold order-first md:order-2 ">India's Most-loved Payments App</div>
+                    <div class="heroDesc w-3/5 order-3 font-paytm font-normal lg:text-xl text-base md:order-3 mb-16">Recharge & pay bills, book flights & movie tickets, open a savings account, invest in stocks & mutual funds, and do a lot more.</div>
+                </div>
 
-            <div class="heroRight flex sm:order-2 m-auto w-1/2">
-                <img src="./Assets/Images/HeroImg.png" alt="image">
+                <div class="heroRight flex m-auto w-1/2">
+                    <img src="./Assets/Images/HeroImg.png" alt="image">
+                </div>
+            </div>
+            
+            <div class="DownloadButton w-64 sm:ml-44 sm:mt-12 md:ml-12 md:mt-8 mb-20 cursor-pointer border rounded-full border-[#000000] bg-[#000000] text-[#fff] text-center p-2 ">
+                Download Paytm App <i class="fa-brands fa-apple" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-google-play" style="color: #ffffff;"></i>
             </div>
         </div>
 
