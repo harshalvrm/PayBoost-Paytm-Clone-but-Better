@@ -20,7 +20,7 @@ The header of the application includes the *Paytm logo, search bar, and various 
 ## About The Project
 <br>
 
-![PayBoost](./Screenshots/Head_Image.png)
+![PayBoost](https://user-images.githubusercontent.com/30925783/233857407-839ad126-580f-4c70-8311-56a82728c8a5.png)
 
 
 Here's a Screenshots of project PayBoost.
@@ -29,13 +29,16 @@ Here's a Screenshots of project PayBoost.
 <br>
 
 ![Gif](./Screenshots/Gif.gif)
+
+
 <br>
 
+![Code Snippet](https://user-images.githubusercontent.com/30925783/233857460-dc778e4e-d065-41da-8a14-ec483c26d4ac.png)
 
-![Code Snippet](./Screenshots/code01.png)
 <br>
 
-![Code Snippet](./Screenshots/code02.png)
+![Code Snippet](https://user-images.githubusercontent.com/30925783/233857478-a4240f77-cdb4-48a4-aa2d-4e68d9dde5a3.png)
+
 <br>
 
 
