@@ -28,8 +28,7 @@ Here's a Screenshots of project PayBoost.
 
 <br>
 
-![Gif](./Screenshots/Gif.gif)
-
+https://user-images.githubusercontent.com/30925783/233857708-66351927-bcf8-47c6-9213-1e9048350ac1.mp4
 
 <br>
 
